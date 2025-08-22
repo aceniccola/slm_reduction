@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-import pandas as pd
+import polars as pl
 import langchain_community
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.embeddings import OpenAIEmbeddings
